@@ -47,7 +47,7 @@ open class UPCarouselFlowLayout: UICollectionViewFlowLayout {
     
     fileprivate func setupCollectionView() {
         guard let collectionView = self.collectionView else { return }
-        if collectionView.decelerationRate != UIScrollViewDecelerati.onRateFast {
+        if collectionView.decelerationRate != UIScrollViewDecelerationRateFast {
             collectionView.decelerationRate = UIScrollViewDecelerationRateFast
         }
     }
